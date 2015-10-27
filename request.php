@@ -18,7 +18,7 @@ $f_email = "other@otherdomain.com";
 $body_message =" Name : $Name \n\n Email : $Email \n\n Phone:$Phone \n\n Message:$Message \n\n Date:$dt";
 $subject="Mail from Web Site (My website name) : Request By $Name for Some Query";
 mail($f_email,$subject,$body_message,$headers);
-
+// Use it in your way.By uncommit below header line
 //header("Location:http://www.yourdomain.com"); 
 ?>
-             
+       
